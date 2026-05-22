@@ -1,0 +1,6 @@
+---
+title: Today I Learned
+---
+
+###May 2026
+* **May 23:** Successfully initialized a Git repository, customized a Quarto YAML configuration, and deployed a site globally using GitHub Pages mapping to the `/docs` directory.

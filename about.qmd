@@ -16,4 +16,9 @@ about:
 
 ---
 
-About this blog
+Hi, I'm Kamal, 
+recent ECE graduate (Class of 2026) from the Chandigarh area.
+Like many, my college tech journey was a chaotic loop of starting languages, getting distracted by the rapid evolution of AI, and falling into the trap of passive "vibe coding"—blindly copy-pasting code from LLMs just to make things work.
+After graduating without a job and realizing how much time I wasted navigating the noise, I decided to break the cycle.
+I am joining this AI engineering cohort to build a rock-solid, hands-on foundation in RAG, LLM pipelines, and system orchestration. 
+This blog is my space to stop procrastinating, trade passive tutorials for active shipping, and document my transition from a distracted graduate to a disciplined AI Engineer.

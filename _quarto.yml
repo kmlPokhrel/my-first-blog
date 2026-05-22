@@ -1,23 +1,24 @@
 project:
   type: website
   output-dir: docs
+
 website:
   description: "Building first Blog with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
   title: "my-first-blog"
   navbar:
     right:
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "TIL"
+        href: til.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/kmlPokhrel
       - icon: bluesky
         href: https://bsky.app/
+
 format:
   html:
-    theme:
-      - cyborg
-      - brand
+    theme: cyborg
     css: styles.css
-
-
-
