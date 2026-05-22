@@ -92,11 +92,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./til.html"> 
+<span class="menu-text">TIL</span></a>
+  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/kmlPokhrel"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -128,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
   </div>
 </header><main class="content" id="quarto-document-content">
-<p>About this blog</p>
+<p>Hi, I’m Kamal, recent ECE graduate (Class of 2026) from the Chandigarh area. Like many, my college tech journey was a chaotic loop of starting languages, getting distracted by the rapid evolution of AI, and falling into the trap of passive “vibe coding”—blindly copy-pasting code from LLMs just to make things work. After graduating without a job and realizing how much time I wasted navigating the noise, I decided to break the cycle. I am joining this AI engineering cohort to build a rock-solid, hands-on foundation in RAG, LLM pipelines, and system orchestration. This blog is my space to stop procrastinating, trade passive tutorials for active shipping, and document my transition from a distracted graduate to a disciplined AI Engineer.</p>
 
 
 </main> 
@@ -215,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
